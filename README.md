@@ -21,3 +21,12 @@ REM the cmd extension is important
 REM otherwise it will start the intern windows ubuntu system
 ubuntu.cmd
 ```
+
+
+## Content
+
+  * Binutils package (https://www.gnu.org/software/binutils/)
+     * ld - linker
+     * objdump - Displays information from object files.
+	 * readelf - Displays information from any ELF format object file.
+  * nasm assembler

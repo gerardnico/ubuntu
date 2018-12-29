@@ -6,6 +6,9 @@ RUN echo "==> Update"  && \
 	apt-get install -y nasm && \
 	apt-get install -y vim
 
+RUN echo "==> install binutils"  && \
+	apt-get install -y binutils
+
 ENV MOUNT_POINT /app
 
 RUN echo "==> Creating the mount point" && \
