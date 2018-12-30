@@ -10,7 +10,7 @@ echo "Starting Ubuntu docker via %SCRIPT_PATH%ubuntu.cmd in the working Director
 
 docker run ^
 	--rm ^
-	--name "ubuntu" ^
+	--name ubuntu ^
 	-it ^
 	-v %WK_DIR%:%MOUNT_POINT% ^
 	--workdir %MOUNT_POINT% ^
